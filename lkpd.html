@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPLG</title>
+</head>
+<body>
+
+<h1>PENGUMPULAN LKPD</h1>
+<h2>PENGUMPULAN LKPD</h2>
+<h3>PENGUMPULAN LKPD</h3>
+<h4>PENGUMPULAN LKPD</h4>
+<h5>PENGUMPULAN LKPD</h5>
+
+
+<script>
+
+// LKPD 2
+
+// no 1
+// function hitungGaji(nama, gajiPokok) {
+
+    
+// const tunjangan= 0.2 * gajiPokok;
+// const pajak = 0.15 * (gajiPokok + tunjangan);
+// const gajiBersih = gajiPokok + tunjangan - pajak;
+
+// console.log("nama karyawan", nama);
+// console.log("tunjangan", tunjangan);
+// console.log("pajak",  pajak);
+// console.log("gaji bersih", gajiBersih);
+// }
+
+// let namakaryawan = prompt("masukannamakaryawan");
+// let gajiPokokkaryawan = parseFloat(prompt("masukan gaji pokok karyawan: "));  
+
+// hitungGaji(namakaryawan, gajiPokokkaryawan);
+
+
+// no 2
+// let jam = 3;
+// let menit = 30;
+// let detik =18;
+
+
+// let totalDetik = 3600 * jam + 60 * menit + detik;
+
+// console.log("jam", jam);
+// console.log("menit", menit);
+// console.log("detik",  detik);
+// console.log("totaldetik", totalDetik);
+
+// no 3
+// let totalDetik = 5440;
+
+// let jam = Math.floor(totalDetik / 3600);
+// let sisaDetik = totalDetik % 3600;
+// let menit = Math.floor(sisaDetik / 60);
+// let detik = sisaDetik % 60;
+
+
+// console.log("totaldetik", totalDetik);
+// console.log("Jam", jam);
+// console.log("detik", detik);
+// console.log("menit", menit);
+
+
+// LKPD 3
+
+// no 1
+//  let berat = 2000;
+//  let harga = berat /1000 * 5000;
+//  let diskon = harga * 5/100;
+//  let total = berat-diskon;
+
+//  console.log (`${harga} harga jeruk sebelum diskon ${total} harga jeruk sesudah diskon`);
+
+
+// no 2
+// let bilangan = 400;
+// let jutaan = Math.floor
+// let ratusan= Math.floor(bilangan / 100);
+// let puluhan= Math.floor(bilangan % 100) / 10;
+// let satuan= bilangan % 10
+
+
+// console.log ("ratusan"+ratusan)
+// console.log ("puluhan"+puluhan)
+// console.log ("satuan"+satuan)
+
+// // no 3
+// const suhu = prompt("masukan suhu hari ini menurut bmkg")
+// if (suhu >=300){
+//  result = "cuaca sedang panas";
+// } else if (suhu <= 250){
+//  result = "cuaca sedang dingin";
+// } if (suhu <=250 && suhu >300){
+// }
+// console.log(result)
+
+
+// LKPD 4
+
+// no 1
+// let pabp = 70;
+// let matematika= 82;
+// let dpk= 77;
+// let rata2= Math.floor((pabp + matematika + dpk )/3)
+
+
+// if (rata2 >=80 && rata2 <=100) {
+//  result = "a"
+// } else if (rata2 >=75 && rata2 <=80 ) {
+//   result = "b"
+// } else if ( rata2 >=65 && rata2 <75) {
+//  result = "c"
+// }  else if (rata2 >=45 && rata2 <65) {
+//  result = "d"
+// } else if ( rata2 >=0 && rata2 <45) {
+//  result = "e"
+//  result = "f"
+// }
+
+// console.log (`maka nilai yang dihasilkan adalah ${rata2}`)
+// console.log  (`maka nilai yang dihasilkan adalah ${result}`)
+
+
+// no 2
+// const input = Number(prompt('Masukan kode pegawai (11 digit) : '))
+
+// const golongan = Math.floor(input % 100000000000 / 10000000000)
+// const tgl = Math.floor(input % 10000000000 / 100000000)
+// const bln = Math.floor(input % 100000000 / 1000000)
+// const thn = Math.floor(input % 1000000 / 100)
+// const nn = Math.floor(input % 10000)
+
+// if (golongan >=1 && golongan <= 4) {
+//     let bulanName;
+//     switch(bln) {
+//         case 1: bulanName = 'JAN'; break;
+//         case 2: bulanName = 'FEB'; break;
+//         case 3: bulanName = 'MAR'; break;
+//         case 4: bulanName = 'APR'; break;
+//         case 5: bulanName = 'MEI'; break;
+//         case 6: bulanName = 'JUN'; break;
+//         case 7: bulanName = 'JUL'; break;
+//         case 8: bulanName = 'AGU'; break;
+//         case 9: bulanName = 'SEP'; break;
+//         case 10: bulanName = 'OKT'; break;
+//         case 11: bulanName = 'NOV'; break;
+//         case 12: bulanName = 'DES'; break;
+//         default: bulanName = 'Invalid';
+//     } console.log(`${input} adalah seorang pegawai bergolongan ${golongan}, 
+//     lahir pada tanggal ${tgl} ${bulanName} ${thn} dan bernomor urut ${3}`)
+// } else {
+//     console.log('Golongan tidak valid.')
+// }
+
+// no 3 
+// let hh = 23;
+// let mm = 59;
+// let ss = 59;
+// let tambahdetik=ss+1;
+
+// if(tambahdetik > 59){
+// ss=0;
+// mm=mm +1;
+ 
+
+// if(mm>59) {
+// mm=0;
+// hh=hh+1;
+ 
+// if(hh>23) {
+// ss=1;
+// mm=2;
+// hh=3;
+// }
+// }
+
+// console.log(`${hh} ${mm} ${ss}`)
+// }
+// else {
+// console.log (`${hh} ${mm} $(tambahdetik)`)
+//  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+    
+</body>
+</html>
